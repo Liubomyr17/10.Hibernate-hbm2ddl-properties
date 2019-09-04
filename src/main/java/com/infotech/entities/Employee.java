@@ -15,7 +15,7 @@ public class Employee {
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Integer employeeId;
 
-    @Column(name="employee_name", length = 100, nullable=false)
+    @Column(name="employee_name", length = 200, nullable=false)
     private String employeeName;
 
     @Column(name="email", unique = true)
